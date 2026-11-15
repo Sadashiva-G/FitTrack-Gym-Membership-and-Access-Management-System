@@ -10,7 +10,7 @@ import pandas as pd
 import requests
 import streamlit as st
 
-BACKEND_URL = os.getenv("FITTRACK_API_URL", "http://127.0.0.1:8000")
+BACKEND_URL = os.getenv("FITTRACK_API_URL", "https://fittrack-gym-membership-and-access.onrender.com/docs")
 
 
 # ---------------------------------------------------------------------------
